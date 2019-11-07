@@ -4,7 +4,7 @@ class Song
   
   def initialize(title = "", artist = "")
     @title = title 
-    artist = Artist.new("Artist")
+    #artist = Artist.new("Artist")
     @artist = artist
     
   end
